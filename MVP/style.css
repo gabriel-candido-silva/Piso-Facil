@@ -399,6 +399,189 @@ img {
   line-height: 1.2;
 }
 
+/* --- Services Section (Serviços) --- */
+.services-section {
+  width: 100%;
+  background-color: var(--bg-primary);
+}
+
+.services-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 96px var(--page-padding-x);
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* Header & Intro */
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 100px;
+}
+
+.services-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.section-tag {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-brand);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.03;
+  color: var(--color-text-dark);
+  letter-spacing: -0.01em;
+}
+
+.services-intro {
+  max-width: 400px;
+  flex-shrink: 0;
+}
+
+.services-intro-text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.service-image-wrapper {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  background-color: var(--color-border);
+}
+
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.service-card:hover .service-image {
+  transform: scale(1.04);
+}
+
+.service-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.service-name {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  line-height: 1.1;
+}
+
+.service-number {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-accent-wood);
+}
+
+.service-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.service-tagline {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-brand);
+}
+
+.service-description {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+.service-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-border);
+  margin-top: auto;
+}
+
+/* Services Footer */
+.services-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.services-notice {
+  max-width: 790px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.services-link-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: opacity 0.2s ease;
+}
+
+.services-link-action:hover {
+  opacity: 0.8;
+}
+
+.services-link-action img {
+  width: 17px;
+  height: 17px;
+}
+
 /* --- Floating WhatsApp Button --- */
 .floating-whatsapp {
   position: fixed;
@@ -473,6 +656,20 @@ img {
     flex-wrap: wrap;
     gap: 24px 40px;
   }
+
+  .services-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .services-intro {
+    max-width: 100%;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -526,6 +723,26 @@ img {
     gap: 20px;
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .services-container {
+    padding: 64px var(--page-padding-x);
+    gap: 36px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .services-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
   }
 
   .floating-whatsapp {
