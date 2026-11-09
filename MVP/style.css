@@ -1051,6 +1051,103 @@ img {
   color: var(--color-cream-light);
 }
 
+/* --- FAQ Section (Dúvidas Frequentes) --- */
+.faq-section {
+  width: 100%;
+  background-color: var(--bg-primary);
+}
+
+.faq-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 96px var(--page-padding-x);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.faq-intro-col {
+  flex: 0 0 370px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.faq-description {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+.faq-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.faq-item {
+  border-top: 1px solid var(--color-border);
+  padding: 24px 0 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-question::-webkit-details-marker,
+.faq-question::marker {
+  display: none;
+}
+
+.faq-question-text {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-text-dark);
+  transition: color 0.2s ease;
+}
+
+.faq-item:hover .faq-question-text {
+  color: var(--color-brand);
+}
+
+.faq-icon-wrap {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  background-image: url('assets/icon-minus.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.2s ease;
+}
+
+details:not([open]) .faq-icon-wrap {
+  background-image: url('assets/icon-plus.svg');
+}
+
+.faq-answer p {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
 /* --- Floating WhatsApp Button --- */
 .floating-whatsapp {
   position: fixed;
@@ -1188,6 +1285,21 @@ img {
     flex: none;
     width: 100%;
     max-width: 500px;
+  }
+
+  .faq-container {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .faq-intro-col {
+    flex: none;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .faq-list {
+    width: 100%;
   }
 }
 
@@ -1330,6 +1442,15 @@ img {
 
   .preservation-quote {
     font-size: 24px;
+  }
+
+  .faq-container {
+    padding: 64px var(--page-padding-x);
+    gap: 36px;
+  }
+
+  .faq-question-text {
+    font-size: 16px;
   }
 
   .floating-whatsapp {
