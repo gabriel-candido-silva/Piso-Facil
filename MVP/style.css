@@ -11,6 +11,7 @@
   --color-brand: #254B3B;
   --color-brand-hover: #1C3A2E;
   --color-brand-light: #C8D4C9;
+  --color-cream-light: #F6F2E8;
   --color-text-dark: #2D3028;
   --color-text-muted: #66675D;
   --color-border: #D5CFC2;
@@ -977,6 +978,79 @@ img {
   color: var(--color-text-muted);
 }
 
+/* --- Preservation Section (Preservação da Madeira) --- */
+.preservation-section {
+  width: 100%;
+  background-color: var(--color-brand);
+}
+
+.preservation-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 72px var(--page-padding-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 88px;
+}
+
+.preservation-invite {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.preservation-tag {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-brand-light);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+}
+
+.preservation-title {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.03;
+  color: var(--color-cream-light);
+  letter-spacing: -0.01em;
+}
+
+.preservation-value {
+  flex: 0 0 440px;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.preservation-icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+
+.preservation-text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-brand-light);
+}
+
+.preservation-quote {
+  font-family: var(--font-serif);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-cream-light);
+}
+
 /* --- Floating WhatsApp Button --- */
 .floating-whatsapp {
   position: fixed;
@@ -1102,6 +1176,18 @@ img {
 
   .about-image-wrapper {
     height: 420px;
+  }
+
+  .preservation-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .preservation-value {
+    flex: none;
+    width: 100%;
+    max-width: 500px;
   }
 }
 
@@ -1231,6 +1317,19 @@ img {
 
   .about-image-wrapper {
     height: 320px;
+  }
+
+  .preservation-container {
+    padding: 56px var(--page-padding-x);
+    gap: 32px;
+  }
+
+  .preservation-title {
+    font-size: 38px;
+  }
+
+  .preservation-quote {
+    font-size: 24px;
   }
 
   .floating-whatsapp {
