@@ -6,6 +6,7 @@
 /* --- CSS Variables & Design Tokens --- */
 :root {
   --bg-primary: #F7F4ED;
+  --bg-sand: #EAE4D8;
   --bg-card: #FEFCF7;
   --color-brand: #254B3B;
   --color-brand-hover: #1C3A2E;
@@ -582,6 +583,220 @@ img {
   height: 17px;
 }
 
+/* --- Gallery & Before/After Section (Galeria e Antes e Depois) --- */
+.gallery-section {
+  width: 100%;
+  background-color: var(--bg-sand);
+}
+
+.gallery-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 96px var(--page-padding-x);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Gallery Header */
+.gallery-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 96px;
+}
+
+.gallery-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gallery-intro {
+  max-width: 370px;
+  flex-shrink: 0;
+}
+
+.gallery-intro-text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+/* Before / After Comparison Block */
+.comparison-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comparison-frame {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  background-color: var(--color-border);
+}
+
+.comparison-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.comparison-overlay-before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(178, 163, 142, 0.42);
+  pointer-events: none;
+}
+
+.comparison-divider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: var(--bg-card);
+  transform: translateX(-50%);
+}
+
+.comparison-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--bg-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.comparison-badge {
+  position: absolute;
+  top: 24px;
+  padding: 9px 14px;
+  background-color: var(--bg-primary);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.badge-before {
+  left: 24px;
+}
+
+.badge-after {
+  right: 24px;
+}
+
+.comparison-caption {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+/* Notice Bar */
+.notice-bar {
+  width: 100%;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notice-icon {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.notice-text {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+}
+
+/* Six Environmental Studies Grid */
+.studies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px 28px;
+}
+
+.study-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.study-image-wrapper {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  background-color: var(--color-border);
+}
+
+.study-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.study-card:hover .study-image {
+  transform: scale(1.04);
+}
+
+.study-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 14px;
+}
+
+.study-tag {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--color-accent-wood);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.study-title {
+  font-family: var(--font-serif);
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 1.08;
+  color: var(--color-text-dark);
+}
+
+.study-subtitle {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
 /* --- Floating WhatsApp Button --- */
 .floating-whatsapp {
   position: fixed;
@@ -670,6 +885,24 @@ img {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .gallery-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .gallery-intro {
+    max-width: 100%;
+  }
+
+  .comparison-frame {
+    height: 380px;
+  }
+
+  .studies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -743,6 +976,38 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+  }
+
+  .gallery-container {
+    padding: 64px var(--page-padding-x);
+    gap: 32px;
+  }
+
+  .comparison-frame {
+    height: 280px;
+  }
+
+  .comparison-badge {
+    padding: 6px 10px;
+    font-size: 11px;
+    top: 14px;
+  }
+
+  .badge-before {
+    left: 14px;
+  }
+
+  .badge-after {
+    right: 14px;
+  }
+
+  .studies-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .study-image-wrapper {
+    height: 210px;
   }
 
   .floating-whatsapp {
