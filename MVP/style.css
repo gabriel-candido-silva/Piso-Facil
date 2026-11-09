@@ -867,6 +867,116 @@ img {
   margin-top: 4px;
 }
 
+/* --- About Section (Sobre Daniel Laranjeira) --- */
+.about-section {
+  width: 100%;
+  background-color: var(--bg-card);
+}
+
+.about-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 88px var(--page-padding-x);
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+
+.about-media {
+  flex: 0 0 560px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-image-wrapper {
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  background-color: var(--color-border);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.about-image-wrapper:hover .about-image {
+  transform: scale(1.03);
+}
+
+.about-image-caption {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-text {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+.about-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-border);
+}
+
+.about-location {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-location-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.about-location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about-location-title {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  line-height: 1.2;
+}
+
+.about-location-subtitle {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
 /* --- Floating WhatsApp Button --- */
 .floating-whatsapp {
   position: fixed;
@@ -976,6 +1086,22 @@ img {
 
   .steps-grid {
     gap: 32px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .about-media {
+    flex: none;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .about-image-wrapper {
+    height: 420px;
   }
 }
 
@@ -1096,6 +1222,15 @@ img {
 
   .step-title {
     font-size: 26px;
+  }
+
+  .about-container {
+    padding: 64px var(--page-padding-x);
+    gap: 36px;
+  }
+
+  .about-image-wrapper {
+    height: 320px;
   }
 
   .floating-whatsapp {
