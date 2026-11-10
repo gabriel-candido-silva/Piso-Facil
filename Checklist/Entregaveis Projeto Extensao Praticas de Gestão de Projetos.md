@@ -315,13 +315,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Registro de riscos com pelo menos 12 itens
-- [ ] Matriz probabilidade x impacto
-- [ ] Plano de respostas com gatilho e responsável
-- [ ] Issue log da equipe
-- [ ] Decision log da equipe
-- [ ] Revisão de segurança e dados do ambiente acadêmico
-- [ ] Diário de bordo - U10
+- [x] Registro de riscos com pelo menos 12 itens
+- [x] Matriz probabilidade x impacto
+- [x] Plano de respostas com gatilho e responsável
+- [x] Issue log da equipe
+- [x] Decision log da equipe
+- [x] Revisão de segurança e dados do ambiente acadêmico
+- [x] Diário de bordo - U10
 
 Abas da planilha a preencher nesta unidade:
 
