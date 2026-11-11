@@ -149,13 +149,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Lista de atividades com responsáveis
-- [ ] Estimativas com base e incerteza registradas
-- [ ] Cronograma/Gantt do projeto extensionista
-- [ ] Mapa de dependências e marcos externos confirmados
-- [ ] Caminho crítico e folgas identificados
-- [ ] Plano de contingência de calendário
-- [ ] Diário de bordo - U4
+- [x] Lista de atividades com responsáveis
+- [x] Estimativas com base e incerteza registradas
+- [x] Cronograma/Gantt do projeto extensionista
+- [x] Mapa de dependências e marcos externos confirmados
+- [x] Caminho crítico e folgas identificados
+- [x] Plano de contingência de calendário
+- [x] Diário de bordo - U4
 
 Abas da planilha a preencher nesta unidade:
 
@@ -315,13 +315,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Registro de riscos com pelo menos 12 itens
-- [ ] Matriz probabilidade x impacto
-- [ ] Plano de respostas com gatilho e responsável
-- [ ] Issue log da equipe
-- [ ] Decision log da equipe
-- [ ] Revisão de segurança e dados do ambiente acadêmico
-- [ ] Diário de bordo - U10
+- [x] Registro de riscos com pelo menos 12 itens
+- [x] Matriz probabilidade x impacto
+- [x] Plano de respostas com gatilho e responsável
+- [x] Issue log da equipe
+- [x] Decision log da equipe
+- [x] Revisão de segurança e dados do ambiente acadêmico
+- [x] Diário de bordo - U10
 
 Abas da planilha a preencher nesta unidade:
 
