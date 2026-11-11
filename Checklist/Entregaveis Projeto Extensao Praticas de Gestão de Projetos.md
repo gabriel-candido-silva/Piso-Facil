@@ -149,13 +149,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Lista de atividades com responsáveis
-- [ ] Estimativas com base e incerteza registradas
-- [ ] Cronograma/Gantt do projeto extensionista
-- [ ] Mapa de dependências e marcos externos confirmados
-- [ ] Caminho crítico e folgas identificados
-- [ ] Plano de contingência de calendário
-- [ ] Diário de bordo - U4
+- [x] Lista de atividades com responsáveis
+- [x] Estimativas com base e incerteza registradas
+- [x] Cronograma/Gantt do projeto extensionista
+- [x] Mapa de dependências e marcos externos confirmados
+- [x] Caminho crítico e folgas identificados
+- [x] Plano de contingência de calendário
+- [x] Diário de bordo - U4
 
 Abas da planilha a preencher nesta unidade:
 
