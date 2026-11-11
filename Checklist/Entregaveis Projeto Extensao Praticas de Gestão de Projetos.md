@@ -199,13 +199,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Plano de qualidade do projeto
-- [ ] Critérios de aceitação por requisito Must
-- [ ] Checklist de acessibilidade aplicado
-- [ ] Estratégia e plano de testes
-- [ ] Análise de causa (Pareto ou Ishikawa) de um problema real
-- [ ] Política de dados e privacidade do MVP
-- [ ] Diário de bordo - U6
+- [x] Plano de qualidade do projeto
+- [x] Critérios de aceitação por requisito Must
+- [x] Checklist de acessibilidade aplicado
+- [x] Estratégia e plano de testes
+- [x] Análise de causa (Pareto ou Ishikawa) de um problema real
+- [x] Política de dados e privacidade do MVP
+- [x] Diário de bordo - U6
 
 Abas da planilha a preencher nesta unidade:
 
@@ -224,13 +224,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Matriz RACI ligada à EAP
-- [ ] Acordo de trabalho da equipe
-- [ ] Plano de desenvolvimento e backup de conhecimento
-- [ ] Regra de rotação para atividades críticas
-- [ ] Registro do conflito simulado e da técnica escolhida
-- [ ] Primeira retrospectiva (manter, parar, começar)
-- [ ] Diário de bordo - U7
+- [x] Matriz RACI ligada à EAP
+- [x] Acordo de trabalho da equipe
+- [x] Plano de desenvolvimento e backup de conhecimento
+- [x] Regra de rotação para atividades críticas
+- [x] Registro do conflito simulado e da técnica escolhida
+- [x] Primeira retrospectiva (manter, parar, começar)
+- [x] Diário de bordo - U7
 
 Abas da planilha a preencher nesta unidade:
 
