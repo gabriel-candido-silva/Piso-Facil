@@ -158,6 +158,9 @@ Icones e logotipo (formato SVG):
 - `icon-minus.svg` — icone de menos para o estado expandido do FAQ.
 - `icon-plus.svg` — icone de mais para o estado recolhido do FAQ.
 
+
+#### Link de Hospedagem do MVP:
+https://gabriel-candido-silva.github.io/Piso-F-cil/
 ---
 
 ## Tecnologias Utilizadas
