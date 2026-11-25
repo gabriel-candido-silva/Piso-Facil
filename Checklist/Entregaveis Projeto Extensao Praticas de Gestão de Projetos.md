@@ -257,13 +257,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Plano de comunicação do projeto
-- [ ] Ata da Reunião 2 com lista de presença
-- [ ] Termo de validação do planejamento
-- [ ] Linha de base v1.0 congelada e versionada
-- [ ] Solicitação de mudança com análise de impacto
-- [ ] Proposta de valor e plano de divulgação responsável
-- [ ] Diário de bordo - U8
+- [x] Plano de comunicação do projeto
+- [x] Ata da Reunião 2 com lista de presença
+- [x] Termo de validação do planejamento
+- [x] Linha de base v1.0 congelada e versionada
+- [x] Solicitação de mudança com análise de impacto
+- [x] Proposta de valor e plano de divulgação responsável
+- [x] Diário de bordo - U8
 
 Abas da planilha a preencher nesta unidade:
 
@@ -282,13 +282,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Registro de stakeholders
-- [ ] Matriz poder x interesse com estratégia por quadrante
-- [ ] Plano de engajamento com nível atual e desejado
-- [ ] Ata da Reunião 3 e termos de consentimento
-- [ ] Relatório de validação da proposta de valor
-- [ ] Mapa de apoiadores e organizações do ecossistema local
-- [ ] Diário de bordo - U12
+- [x] Registro de stakeholders
+- [x] Matriz poder x interesse com estratégia por quadrante
+- [x] Plano de engajamento com nível atual e desejado
+- [x] Ata da Reunião 3 e termos de consentimento
+- [x] Relatório de validação da proposta de valor
+- [x] Mapa de apoiadores e organizações do ecossistema local
+- [x] Diário de bordo - U12
 
 Abas da planilha a preencher nesta unidade:
 
@@ -340,13 +340,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Matriz de decisão fazer x usar
-- [ ] Comparativo de ferramentas com critérios
-- [ ] Registro de licenças e termos de uso
-- [ ] Plano de saída por ferramenta crítica
-- [ ] Termo de parceria extensionista
-- [ ] Definição de propriedade e acessos pós-semestre
-- [ ] Diário de bordo - U11
+- [x] Matriz de decisão fazer x usar
+- [x] Comparativo de ferramentas com critérios
+- [x] Registro de licenças e termos de uso
+- [x] Plano de saída por ferramenta crítica
+- [x] Termo de parceria extensionista
+- [x] Definição de propriedade e acessos pós-semestre
+- [x] Diário de bordo - U11
 
 Abas da planilha a preencher nesta unidade:
 
@@ -365,13 +365,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Sprint Backlog e Sprint Goal registrados
-- [ ] Quadro Kanban com políticas e limites de WIP
-- [ ] Link ou versão do MVP em homologação
-- [ ] Checklist de prontidão para teste externo
-- [ ] Ata da Reunião 4 e relatório de usabilidade anonimizado
-- [ ] Registro de defeitos, severidade e correções
-- [ ] Diário de bordo - U13
+- [x] Sprint Backlog e Sprint Goal registrados
+- [x] Quadro Kanban com políticas e limites de WIP
+- [x] Link ou versão do MVP em homologação
+- [x] Checklist de prontidão para teste externo
+- [x] Ata da Reunião 4 e relatório de usabilidade anonimizado
+- [x] Registro de defeitos, severidade e correções
+- [x] Diário de bordo - U13
 
 Abas da planilha a preencher nesta unidade:
 
@@ -390,13 +390,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Stack de ferramentas documentada com critérios
-- [ ] Diário de bordo instrumentado na ferramenta de gestão
-- [ ] Rotinas automatizadas de registro e evidência
-- [ ] Métricas de fluxo e burnup do projeto
-- [ ] Painel de indicadores de contribuição social
-- [ ] Status executivo de uma página e ação corretiva escolhida
-- [ ] Diário de bordo - U14
+- [x] Stack de ferramentas documentada com critérios
+- [x] Diário de bordo instrumentado na ferramenta de gestão
+- [x] Rotinas automatizadas de registro e evidência
+- [x] Métricas de fluxo e burnup do projeto
+- [x] Painel de indicadores de contribuição social
+- [x] Status executivo de uma página e ação corretiva escolhida
+- [x] Diário de bordo - U14
 
 Abas da planilha a preencher nesta unidade:
 
@@ -423,13 +423,13 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] README técnico e guia de continuidade
-- [ ] Registro de decisões e diagramas do sistema
-- [ ] Matriz objetivos SMART x resultados
-- [ ] Ata da Reunião 5 e termo de aceite assinado
-- [ ] Business Model Canvas consolidado e pitch apresentado
-- [ ] Plano de continuidade, transferência de acessos e checklist de arquivamento
-- [ ] Diário de bordo - U15
+- [x] README técnico e guia de continuidade
+- [x] Registro de decisões e diagramas do sistema
+- [x] Matriz objetivos SMART x resultados
+- [x] Ata da Reunião 5 e termo de aceite assinado
+- [x] Business Model Canvas consolidado e pitch apresentado
+- [x] Plano de continuidade, transferência de acessos e checklist de arquivamento
+- [x] Diário de bordo - U15
 
 Abas da planilha a preencher nesta unidade:
 
@@ -456,12 +456,12 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Dossiê integrado U1–U8
-- [ ] Índice de evidências com rastreabilidade
-- [ ] Apresentação de defesa do planejamento
-- [ ] Checklist de coerência preenchido na revisão cruzada
-- [ ] Plano de correções com responsáveis e prazos
-- [ ] Diário de bordo - U9
+- [x] Dossiê integrado U1–U8
+- [x] Índice de evidências com rastreabilidade
+- [x] Apresentação de defesa do planejamento
+- [x] Checklist de coerência preenchido na revisão cruzada
+- [x] Plano de correções com responsáveis e prazos
+- [x] Diário de bordo - U9
 
 Abas da planilha a preencher nesta unidade:
 
@@ -488,12 +488,12 @@ Abas da planilha a preencher nesta unidade:
 
 Entregáveis:
 
-- [ ] Portfólio final navegável e indexado
-- [ ] Planilha de horas com 60 h validadas por estudante
-- [ ] Resumo executivo do projeto
-- [ ] Termo de aceite e plano de continuidade confirmados
-- [ ] Retrospectiva final e autoavaliação individual
-- [ ] Diário de bordo - U16
+- [x] Portfólio final navegável e indexado
+- [x] Planilha de horas com 60 h validadas por estudante
+- [x] Resumo executivo do projeto
+- [x] Termo de aceite e plano de continuidade confirmados
+- [x] Retrospectiva final e autoavaliação individual
+- [x] Diário de bordo - U16
 
 Abas da planilha a preencher nesta unidade:
 
